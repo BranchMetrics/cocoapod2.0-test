@@ -1,4 +1,4 @@
-framework module Tune {
+framework module Tune_tvOS {
   umbrella header "Tune_tvOS.h"
   exclude header "UIViewController+NameTag.h"
   
