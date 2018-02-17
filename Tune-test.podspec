@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "Tune-test"
-  s.version         = "5.0.4"
+  s.version         = "5.0.5"
   s.summary         = "iOS/tvOS SDK for TUNE platform."
   s.description     = "The TUNE SDK for iOS provides Attribution, Analytics, Push, and In-App Messaging capabilities. The TUNE SDK for tvOS provides Attribution and Analytics capabilities."
   s.homepage        = "https://developers.tune.com/sdk/ios-quick-start/"
@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source          = { :git => "https://github.com/TuneOSS/cocoapod2.0-test.git", :tag => s.version.to_s }
   s.ios.deployment_target     = "8.0"
   s.ios.frameworks            = "AdSupport", "CoreSpotlight", "CoreTelephony", "iAd", "MobileCoreServices", "StoreKit", "SystemConfiguration", "UIKit", "CoreBluetooth", "CoreLocation"
+  s.weak_frameworks           = "UserNotifications"
   s.ios.preserve_paths        = "Tune.framework"
   s.ios.vendored_frameworks   = "Tune.framework"
   s.tvos.deployment_target    = "9.0"
