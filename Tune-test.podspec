@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license         = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.author          = { "TUNE, Inc." => "support@tune.com" }
   s.source          = { :git => "https://github.com/TuneOSS/cocoapod2.0-test.git", :tag => s.version.to_s }
-  s.ios.deployment_target     = "8.0"
+  s.ios.deployment_target     = "9.0"
   s.ios.frameworks            = "AdSupport", "CoreSpotlight", "CoreTelephony", "iAd", "MobileCoreServices", "StoreKit", "SystemConfiguration", "UIKit", "CoreBluetooth", "CoreLocation"
   s.weak_frameworks           = "UserNotifications"
   s.ios.preserve_paths        = "Tune.framework"
