@@ -1,1 +1,2 @@
-# cocoapod2.0-test
+This repo is deprecated
+
